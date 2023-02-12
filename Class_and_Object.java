@@ -1,7 +1,6 @@
 //default class is created because no access modifier is used.
 //class name first letter should be in capital letter.
 class Animal{
-    //
     //method is created.
     //method is set of codes which perform a particular task.
     //code reusability and optimization are the advantages of method.
@@ -25,5 +24,39 @@ class Animal{
         dog.eat();
         dog.run();
         //Note: you cannot use method without object.
+    }
+}
+//initializing object by reference variable(how to put values in object)
+class Animal2{
+
+    String name;
+    String colour;
+
+    public static void main(String[] args) {
+        Animal2 cat = new Animal2();
+        cat.colour = "Black";
+        cat.name = "Kitten";
+        System.out.println(cat.colour+" "+cat.name);
+    }
+}
+//initializing object by  method
+class Animal3{
+    String name;
+    String colour;
+    int age;
+    public void temp(String n,String c ,int a){
+        name=n;
+        colour=c;
+        age=a;
+    }
+    public void display(){
+        System.out.println(name+" "+colour+" "+age);
+    }
+
+    public static void main(String[] args) {
+        Animal3 cow = new Animal3();
+        cow.temp("Padma","White",15);
+        cow.display();
+
     }
 }
