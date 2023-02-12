@@ -9,6 +9,9 @@ class Animal{
     public void eat(){
         System.out.println("I am eat method:");
     }
+    public void run(){
+        System.out.println("I am run method");
+    }
 
     public static void main(String[] args) {
         //creating a method.
@@ -20,5 +23,7 @@ class Animal{
         //using method for an object.
         // . is used
         dog.eat();
+        dog.run();
+        //Note: you cannot use method without object.
     }
 }
