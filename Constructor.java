@@ -1,5 +1,5 @@
 public class Constructor {
-    //It is similar to method having same name as that of class name.
+    //It is similar to Method_Overloading having same name as that of class name.
     //it does not have any return type.
     //The only modifiers applicable for constructor are public,protected,default & private,
     //It executes automatically when we create an object.

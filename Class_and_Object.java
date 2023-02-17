@@ -1,29 +1,29 @@
 //default class is created because no access modifier is used.
 //class name first letter should be in capital letter.
 class Animal{
-    //method is created.
-    //method is set of codes which perform a particular task.
-    //code reusability and optimization are the advantages of method.
+    //Method_Overloading is created.
+    //Method_Overloading is set of codes which perform a particular task.
+    //code reusability and optimization are the advantages of Method_Overloading.
     //tells the action of an object.
     public void eat(){
-        System.out.println("I am eat method:");
+        System.out.println("I am eat Method_Overloading:");
     }
     public void run(){
-        System.out.println("I am run method");
+        System.out.println("I am run Method_Overloading");
     }
 
     public static void main(String[] args) {
-        //creating a method.
+        //creating a Method_Overloading.
         //Animal is class.
         //dog is a name of object.
         //new is keyword to create an object.
         //Animal() is a constructor.
         Animal dog = new Animal();
-        //using method for an object.
+        //using Method_Overloading for an object.
         // . is used
         dog.eat();
         dog.run();
-        //Note: you cannot use method without object.
+        //Note: you cannot use Method_Overloading without object.
     }
 }
 //initializing object by reference variable(how to put values in object)
@@ -39,7 +39,7 @@ class Animal2{
         System.out.println(cat.colour+" "+cat.name);
     }
 }
-//initializing object by  method
+//initializing object by  Method_Overloading
 class Animal3{
     String name;
     String colour;
